@@ -1,0 +1,238 @@
+
+body{
+	
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+html,
+body {
+  height: 100%;
+  background: #f5f5f5;
+}
+
+body.text-center {
+	background-color: #f5f5f5;
+}
+
+.formulaire {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.mt-3 {
+	margin-top: 30px;
+}
+
+.mb-3 {
+	margin-bottom: 30px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+select#boutonChoix.form-control {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+/* Progress bar */
+
+.wizard {
+    margin: 0px auto 3px auto;
+    background-color: #f5f5f5;
+}
+
+    .wizard .nav-tabs {
+        position: relative;
+        margin: 0px auto;
+        margin-bottom: 0;
+    }
+
+    .wizard > div.wizard-inner {
+        position: relative;
+    }
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+span.round-tab i{
+    color:#555555;
+    line-height: 60px;
+}
+
+.wizard li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #EF7C00;
+    
+}
+.wizard li.active span.round-tab i{
+    color: #EF7C00;
+    
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .nav-tabs {
+	border-bottom: 2px solid #EF7C00;
+}
+
+.wizard .nav-tabs > li {
+    width: 20%;
+}
+
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #EF7C00;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #EF7C00;
+}
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+    .wizard .nav-tabs > li a:hover {
+        background: transparent;
+    }
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media( max-width : 585px ) {
+
+    .wizard {
+        width: 90%;
+        height: auto !important;
+    }
+
+    span.round-tab {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    span.round-tab i{
+	    color:#555555;
+	    line-height: 45px;
+	}
+
+    .wizard .nav-tabs > li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .wizard li.active:after {
+        content: " ";
+        position: absolute;
+        left: 35%;
+    }
+}
+
+
+
+div.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+	width: 100%;
+}
+
+ul.list-inline {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+ul.list-inline li.first {
+	margin-bottom: 10px;
+}
