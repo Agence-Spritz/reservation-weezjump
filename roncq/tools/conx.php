@@ -1,8 +1,15 @@
 <?php
+/*
 $host="localhost";
 $user = "root";
 $pass = "root";
 $base = "reservation-weezjump-v2";
+*/
+
+$host="weezjumpsgresbdd.mysql.db";
+$user = "weezjumpsgresbdd";
+$pass = "4ox8zZq2zA";
+$base = "weezjumpsgresbdd";
 
 
    // CONNEXION
