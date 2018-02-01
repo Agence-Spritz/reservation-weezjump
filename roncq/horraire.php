@@ -274,8 +274,8 @@ else if($dateATester < date("Y-m-d")){
 						}
 					?>
 						<ul class="list-inline">
-                            <li><button type="button" class="btn btn-default prev-step" OnClick="window.location.href='date.php?nbPart=<? echo $_GET['nbPart']; ?>'">changer de date</button></li>
-                            <li><button type="submit" value="suivant" class="btn btn-primary next-step">Continuer</button></li>
+                            <li class="first"><button type="button" class="btn btn-default prev-step" OnClick="window.location.href='date.php?nbPart=<? echo $_GET['nbPart']; ?>'">changer de date</button></li>
+                            <li class="last"><button type="submit" value="suivant" class="btn btn-primary next-step">Continuer</button></li>
                         </ul>
 				    </form>
 					
