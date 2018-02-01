@@ -71,8 +71,6 @@ if(isset($_POST["nomParticipant"]) ){
 			}
 		
 		}
-	
-
 
 
 	// Création de la fonction d'envoi de mail
@@ -85,7 +83,7 @@ if(isset($_POST["nomParticipant"]) ){
 		$From .= "MIME-version: 1.0\n";
 		$From .= "Content-type: text/html; charset= UTF-8\n";
 		
-		$urlSite = "http://reservation.weezjump.com";
+		$urlSite = "http://reservation.weezjump.com/roncq";
 		
 		$Message = '<style type="text/css">
 			body{
