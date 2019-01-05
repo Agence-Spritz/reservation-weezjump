@@ -71,7 +71,7 @@ include("tools/js-css.php");
 			      <p class="mb-3">Veuillez indiquer le nombre de participants concernés par cette réservation</p>
 			      
 				    <select name="nbPart" id="boutonChoix" class="form-control " required>
-				        <?php for($i=$minQtepersonnes;$i<=26;$i++){
+				        <?php for($i=$minQtepersonnes;$i<=60;$i++){
 							  echo '<option value="'.$i.'">'.$i.'</option>';
 						  }
 						?>
