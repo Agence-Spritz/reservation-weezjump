@@ -236,9 +236,11 @@ else if($dateATester < date("Y-m-d")){
 													
 												}
 												
-												$lvPlacedispo = 26;
+												$lvPlacedispo = 60;
 												$reste = $lvPlacedispo - $comptagePlaceDispo;
-												if(intval($reste) >= $nbPart && $nbreservation<4){
+												
+												
+												if(intval($reste) >= $nbPart /* && $nbreservation<4 */){
 													
 													//echo '<input class="option" type="checkbox" name="lazone['.$varTempoA.']" value="'.$i.":".$jF.':00" id="check'.$varTempoA .'"   /><label for="check'.$varTempoA .'"  class = "optionL" id ="label'.$varTempoA .'" >'.rectifHeure($i)."h".$jO.''.'</label>';
 													
